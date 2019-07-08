@@ -33,3 +33,5 @@ github_username:  song9446
 markdown: kramdown
 
 # theme: minimal
+
+theme: jekyll-theme-cayman
