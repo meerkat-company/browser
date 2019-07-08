@@ -1,0 +1,35 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title:
+  en: Meerkat Browser
+  ko: 미어캣 브라우저
+email: eunchul.dev@gmail.com
+chromium_version: 77.0.3844.0
+product_version: 0.0.1
+description:
+  en: bypass blocked websites with Meerkat Browser - fastest and safest!
+  ko: 미어캣 브라우저로로 차단된 사이트를 우회하세요 - 가장 빠르고 안전합니다!
+index:
+  en: index-en.html
+  ko: index-ko.html
+feed:
+  en: /feed-en.xml
+  ko: /feed-ko.xml
+about:
+  en: /about-en.html
+  ko: /about-ko.html
+baseurl: "/meerkat-browser" # the subpath of your site, e.g. /blog
+url: "http://localhost" # the base hostname & protocol for your site
+twitter_username: eunchul_dev
+github_username:  song9446
+
+# Build settings
+markdown: kramdown
+
+# theme: minimal

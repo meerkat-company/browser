@@ -1,0 +1,10 @@
+    <script>
+        getNavigatorLanguage = () => (navigator.languages && navigator.languages.length) ? navigator.languages[0] : navigator.userLanguage || navigator.language || navigator.browserLanguage || 'en';
+        getExt = (path) => (path.split('.').pop() == path)? "" : path.split('.').pop();
+        let locale = getNavigatorLanguage().split("-")[0],
+            pathname = !location.pathname.endsWith("/")? location.pathname: location.pathname + "index.html",
+            ext = getExt(pathname),
+            pathname_without_ext = pathname.slice(0, pathname.length - ext.length-1);
+        if(!pathname_without_ext.endsWith(locale))
+            location.pathname = pathname_without_ext.split("-").slice(0, pathname_without_ext.length-1).join("-") + "-" + locale + "." + ext;
+    </script>

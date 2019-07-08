@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>닷지 크롬</title>
+    <description>Écrivez une super description de votre nouveau site ici. Vous pouvez modifier cette ligne dans _config.yml. Elle apparaîtra dans la balise meta description (pour les résultats sur Google) et dans le fil RSS feed.xml.</description>
+    <link>http://localhost:4000/dodge-chrome/</link>
+    <atom:link href="http://localhost:4000/dodge-chrome/feed-ko.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 08 Jul 2019 02:08:29 +0900</pubDate>
+    <lastBuildDate>Mon, 08 Jul 2019 02:08:29 +0900</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+    
+      <item>
+        <title>닷지크롬이 돌아왔어요</title>
+        <description>&lt;p&gt;닷지크롬이 돌아왔어요!&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 05 Jul 2019 14:45:57 +0900</pubDate>
+        <link>http://localhost:4000/dodge-chrome/2019/07/05/%EB%8B%B7%EC%A7%80%ED%81%AC%EB%A1%AC%EC%9D%B4-%EB%8F%8C%EC%95%84%EC%99%94%EC%96%B4%EC%9A%94.html</link>
+        <guid isPermaLink="true">http://localhost:4000/dodge-chrome/2019/07/05/%EB%8B%B7%EC%A7%80%ED%81%AC%EB%A1%AC%EC%9D%B4-%EB%8F%8C%EC%95%84%EC%99%94%EC%96%B4%EC%9A%94.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
