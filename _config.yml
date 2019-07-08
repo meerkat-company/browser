@@ -24,7 +24,7 @@ feed:
 about:
   en: /about-en.html
   ko: /about-ko.html
-baseurl: "/meerkat-browser" # the subpath of your site, e.g. /blog
+baseurl: "/browser" # the subpath of your site, e.g. /blog
 url: "http://localhost" # the base hostname & protocol for your site
 twitter_username: eunchul_dev
 github_username:  song9446
