@@ -1,6 +1,27 @@
 /**
  * Site header
  */
+.site-locale-set {
+    text-align: right; 
+    line-height: 2em;
+    background-color: #793698;
+    color: white;
+    a,
+    a:visited, 
+    a:hover {
+        color: white
+    }
+}
+
+.site-front {
+    background-color: #793698;
+    padding-top: 40vh;
+    text-align: center;
+    img {
+        height: 10vh;
+    }
+}
+
 .site-header {
     // border-top: 5px solid $grey-color-dark;
     //border-bottom: 1px solid $grey-color-light;
@@ -9,7 +30,6 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
-    padding-top: 18rem;
     text-align: center; 
     @include media-query($on-palm) {
         padding-top: 6rem;
@@ -41,7 +61,7 @@ a.download {
     margin: 1rem;
     flex-shrink: 0;
     color: white;
-    background-color: #8b099e;
+    background-color: #793698;
     border-radius: 0.5rem;
     height: 48px;
     width: 162px;
@@ -162,8 +182,8 @@ table.download-table {
     }
 
     @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
+        position: fixed;
+        top: 3rem;
         right: $spacing-unit / 2;
         background-color: $background-color;
         border: 1px solid $grey-color-light;

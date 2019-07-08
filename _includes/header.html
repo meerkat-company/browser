@@ -1,17 +1,19 @@
-<div style="text-align: right; line-height: 2em">
+<div class="site-locale-set" style="text-align: right; line-height: 2em">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
   {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
 
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
   {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
 </div>
+<div class="site-front">
+      <img src="{{ '/assets/images/app_icon.png' | prepend: site.baseurl }}">
+      </img>
+</div>
 
 <header class="site-header">
 
   <div class="wrapper section-padded">
 
-      <img src="{{ '/assets/images/app_icon.png' | prepend: site.baseurl }}">
-      </img>
       <a class="site-title" href="{{ site.baseurl }}/{{ site.index[page.lang] }}"><h1>{{ site.title[page.lang] }} - {{ site.product_version }}</h1></a>
       <span class="site-subtitle"> Chromium version: {{ site.chromium_version }} </span>
 
