@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      DodgeChrome now launched
+title:      Meerkat Browser now launched
 date:       2019-07-05 14:45:57 +0900
 summary:
 categories:
