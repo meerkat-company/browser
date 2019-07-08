@@ -27,7 +27,7 @@ about:
 baseurl: "/browser" # the subpath of your site, e.g. /blog
 url: "http://localhost" # the base hostname & protocol for your site
 twitter_username: eunchul_dev
-github_username:  song9446
+github_username:  meerkat-company
 
 # Build settings
 markdown: kramdown
